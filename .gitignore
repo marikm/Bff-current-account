@@ -49,3 +49,8 @@ buildNumber.properties
 *.class
 *.jar
 *.war
+
+# Environment variables
+.env
+*.env
+!.env.example
