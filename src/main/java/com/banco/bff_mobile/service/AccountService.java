@@ -6,9 +6,11 @@ import com.banco.bff_mobile.entity.Account;
 import com.banco.bff_mobile.entity.Transaction;
 import com.banco.bff_mobile.repository.AccountRepository;
 import com.banco.bff_mobile.repository.TransactionRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class AccountService {
 
     private final AccountRepository accountRepository;
