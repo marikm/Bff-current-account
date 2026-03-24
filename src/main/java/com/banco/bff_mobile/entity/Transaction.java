@@ -13,7 +13,7 @@ public class Transaction {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
-    private int accountId;
+    private Integer accountId;
     private BigDecimal amount;
     private String type;
     private String description;
