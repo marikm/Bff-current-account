@@ -1,5 +1,5 @@
 -- Insert a test account (Remember: we don't send the ID because Postgres generates it automatically)
-INSERT INTO accounts (customer_name, account_number, current_balance)
+INSERT INTO account (customer_name, account_number, current_balance)
 VALUES ('Marina Matsumoto', '12345-6', 1500.50);
 
 -- Insert 3 transactions for this account (Assuming the account above got ID 1)
